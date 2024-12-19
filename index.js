@@ -23,7 +23,7 @@ connectDB();
 const port = process.env.PORT || 5001;
 
 app.get("/", (req, res) => {
-    res.status(200).send("Hello World");
+    res.status(200).send("Welcome to assign-mentor Task");
 });
 
 // Start server
